@@ -1,0 +1,40 @@
+{
+  "title": "Untangling EIT Waves: reproducibility software and reduced EUV data",
+  "upload_type": "software",
+  "publication_date": "2026-09-03",
+  "version": "1.0.0",
+  "creators": [
+    {
+      "name": "Podladchikova, Olena"
+    }
+  ],
+  "description": "Reproducibility software, compact derived products, and reduced public SDO/AIA data supporting the Solar Physics Review 'Untangling EIT Waves: What a Measured Speed Actually Traces'. The release separates direct observables, derived quantities, and model-dependent estimates; it does not fit a universal front-energy scaling law.",
+  "keywords": [
+    "solar physics",
+    "EUV waves",
+    "coronal shocks",
+    "energy partition",
+    "SDO/AIA",
+    "PROBA2/SWAP",
+    "FITS WCS"
+  ],
+  "access_right": "open",
+  "license": "BSD-3-Clause",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/epodlad/untangling-eit-waves",
+      "relation": "isSupplementTo",
+      "resource_type": "software"
+    },
+    {
+      "identifier": "https://doi.org/10.3847/1538-4357/ab3b08",
+      "relation": "references",
+      "resource_type": "publication-article"
+    },
+    {
+      "identifier": "https://sdo.oma.be/data/aia_synoptic/",
+      "relation": "isDerivedFrom",
+      "resource_type": "dataset"
+    }
+  ]
+}
