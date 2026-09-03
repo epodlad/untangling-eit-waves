@@ -1,0 +1,34 @@
+{
+  "archive": {
+    "name": "SIDC reduced definitive AIA Level 1.5 synoptic archive",
+    "base_url": "https://sdo.oma.be/data/aia_synoptic/",
+    "image_shape_pixels": [1024, 1024],
+    "plate_scale_arcsec_per_pixel": 2.4,
+    "native_cadence_seconds": 120
+  },
+  "events": [
+    {
+      "id": "2017-04-01",
+      "core_start_utc": "2017-04-01T21:30:00Z",
+      "core_end_utc": "2017-04-01T22:06:00Z",
+      "primary_aia_channels_angstrom": [171, 193],
+      "published_swap_mean_speed_km_s": 417,
+      "original_swap_level1_and_masks_in_release": false
+    },
+    {
+      "id": "2017-04-03",
+      "core_start_utc": "2017-04-03T14:12:00Z",
+      "core_end_utc": "2017-04-03T14:50:00Z",
+      "primary_aia_channels_angstrom": [171, 193],
+      "published_swap_sector_speeds_km_s": {"15": 457, "16": 484},
+      "original_swap_level1_and_masks_in_release": false
+    }
+  ],
+  "published_swap_sampling": {
+    "sector_count": 24,
+    "nominal_sector_width_deg": 15,
+    "radial_ring_width_Mm": 91.6,
+    "approximate_cadence_seconds": 110,
+    "geometry_status": "reconstructed from a published conference-poster description; not an original mask"
+  }
+}

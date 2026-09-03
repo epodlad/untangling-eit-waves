@@ -1,0 +1,6 @@
+component,low,central,high,units,status
+compact_source_thermal_excess_early,1.4576248482655708e+29,3.905348162951576e+29,1.0463422253001047e+30,erg,DEM-inferred; volume/filling-factor model
+dimming_mass_deficit,2126395893996.279,4770991598042.851,10704667410646.959,g,DEM-inferred; LOS-depth/filling-factor model
+ejecta_mechanical_proxy,4.4403399058430296e+27,1.1100152632789706e+28,2.7748638861879044e+28,erg,model proxy; dimming mass paired with published feature speed
+front_segment_kinetic_full_fixed_shell,5.923125458774162e+25,1.093072985573972e+26,2.0171927137246084e+26,erg,weak-compression kinetic model
+front_segment_kinetic_including_bright_subset_sensitivity,5.923125458774162e+25,2.015325196722699e+26,6.857081918683439e+26,erg,sector-local model range; bright-subset upper sensitivity is selection-biased

@@ -1,0 +1,27 @@
+{
+  "manifest_records": 128,
+  "errors": [],
+  "cadence": {
+    "2017-04-01/0171": {
+      "frames": 19,
+      "expected": 19,
+      "two_minute_grid": true
+    },
+    "2017-04-01/0193": {
+      "frames": 19,
+      "expected": 19,
+      "two_minute_grid": true
+    },
+    "2017-04-03/0171": {
+      "frames": 20,
+      "expected": 20,
+      "two_minute_grid": true
+    },
+    "2017-04-03/0193": {
+      "frames": 20,
+      "expected": 20,
+      "two_minute_grid": true
+    }
+  },
+  "status": "PASS"
+}

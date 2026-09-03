@@ -1,0 +1,4 @@
+population,event_energy_min_erg,event_energy_max_erg,events_per_day,flux_min_erg_cm2_s,flux_max_erg_cm2_s,requirement_erg_cm2_s,requirement_percent_min,requirement_percent_max,dissipated_fraction,status
+Compact quiet-Sun brightenings,,,,,,1e5,1,1,,published population estimate under paper assumptions
+Mini-front kinetic,1e23,1e24,470,8.94e-3,8.94e-2,1e5,8.94e-6,8.94e-5,1,upper bound assuming complete dissipation
+Generous mini-front proxy,1e26,1e27,470,8.94,89.4,1e5,8.94e-3,8.94e-2,1,upper proxy assuming complete dissipation

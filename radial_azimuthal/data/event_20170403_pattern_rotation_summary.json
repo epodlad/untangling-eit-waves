@@ -1,0 +1,30 @@
+{
+  "observable": "azimuthal drift of the AIA 171 A intensity-pattern centroid",
+  "interpretation_limit": "pattern speed, not plasma velocity",
+  "reference_time": "2017-04-03T14:28:00",
+  "fit_window_min": [
+    2.0,
+    16.0
+  ],
+  "ensemble_size": 81,
+  "valid_ensemble_size": 81,
+  "omega_deg_min_median": -0.32225450912050696,
+  "omega_deg_min_p16": -1.961842789988843,
+  "omega_deg_min_p84": 1.2721609074049958,
+  "omega_rad_s_median": -9.37400368925157e-05,
+  "preferred": {
+    "source_x_px": 890.0,
+    "source_y_px": 631.0,
+    "target_y_px": 760.0,
+    "radial_speed_km_s": 405.0,
+    "r0_mm": 355.0,
+    "annulus_half_width_mm": 45.0,
+    "angular_window_deg": 42.0,
+    "smoothing_deg": 3.0,
+    "omega_deg_min": 1.1209334576538734,
+    "formal_omega_error_deg_min": 0.7775219238052823,
+    "omega_rad_s": 0.00032606632553040875,
+    "fit_rms_deg": 6.954305411380714,
+    "n_frames": 7
+  }
+}

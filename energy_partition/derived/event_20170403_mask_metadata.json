@@ -1,0 +1,73 @@
+{
+  "event": "2017-04-03 AR 12644",
+  "reference_time": "2017-04-03T14:28:00",
+  "source_xy_reduced_pixels": [
+    887.6,
+    637.3
+  ],
+  "sector16_target_xy_reduced_pixels": [
+    512.0,
+    760.0
+  ],
+  "sector16_half_width_deg": 9.0,
+  "front_radial_bounds_Mm": [
+    780.0,
+    850.0
+  ],
+  "mask_definitions": {
+    "source": "Within 110 Mm; early 94/131 hot-channel increase; morphology cleaned.",
+    "dimming": "171 \u00c5 late/pre hysteresis: seed <=0.70, grow <=0.82, 65-350 Mm.",
+    "front_geometric": "Full reconstructed SWAP sector 16 shell at 780-850 Mm.",
+    "front_bright_subset": "Diagnostic subset of geometric shell with 171 late/pre >=1.02."
+  },
+  "masks": {
+    "source": {
+      "n_pixels": 172,
+      "projected_area_cm2": 5.209986020115616e+18,
+      "surface_area_cm2": 2.5214998624203088e+19,
+      "distance_min_Mm": 26.587699257123592,
+      "distance_max_Mm": 94.05066469457854,
+      "mu_median": 0.21090320324308562
+    },
+    "dimming": {
+      "n_pixels": 445,
+      "projected_area_cm2": 1.3479324296229356e+19,
+      "surface_area_cm2": 3.7167025266895946e+19,
+      "distance_min_Mm": 187.95509555416783,
+      "distance_max_Mm": 273.3066799870026,
+      "mu_median": 0.40724732416458437
+    },
+    "front_geometric": {
+      "n_pixels": 3561,
+      "projected_area_cm2": 1.0786488498623087e+20,
+      "surface_area_cm2": 1.4088231986368335e+20,
+      "distance_min_Mm": 780.0212317643657,
+      "distance_max_Mm": 849.9770630576448,
+      "mu_median": 0.7735589709134751
+    },
+    "front_bright_subset": {
+      "n_pixels": 1557,
+      "projected_area_cm2": 4.716248972860473e+19,
+      "surface_area_cm2": 6.294294560175285e+19,
+      "distance_min_Mm": 780.0250315943819,
+      "distance_max_Mm": 849.9728047267528,
+      "mu_median": 0.745694883808206
+    },
+    "front_control_inner": {
+      "n_pixels": 2764,
+      "projected_area_cm2": 8.372326371860211e+19,
+      "surface_area_cm2": 1.1348020395754371e+20,
+      "distance_min_Mm": 700.012849006089,
+      "distance_max_Mm": 759.9891670897055,
+      "mu_median": 0.7450657099531612
+    },
+    "front_control_outer": {
+      "n_pixels": 3254,
+      "projected_area_cm2": 9.856566575265241e+19,
+      "surface_area_cm2": 1.2596035028518253e+20,
+      "distance_min_Mm": 870.0049257503049,
+      "distance_max_Mm": 929.994664543739,
+      "mu_median": 0.7911030460095774
+    }
+  }
+}

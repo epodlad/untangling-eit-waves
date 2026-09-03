@@ -1,0 +1,6 @@
+regime,energy_min_erg,energy_max_erg,quantity,status,method_or_source
+Compact quiet-Sun brightenings,1e20,1e24,source thermal energy,published observational inference,"Podladchikova et al. 2025; DEM and geometry dependent; robust fitted tail begins near 1e22 erg"
+14 km/s mini-front,2.95e21,1.18e22,kinetic component,illustrative model estimate,"weak compression; ne=2e8 cm^-3; dn/n=0.05-0.10; V=3e27 cm^3"
+45 km/s mini-front,3.05e23,1.22e24,kinetic component,illustrative model estimate,"weak compression; ne=2e8 cm^-3; dn/n=0.05-0.10; V=3e28 cm^3"
+Typical global EUV wave,1.8e29,1.8e29,kinetic plus radiative/conductive proxy,published model estimate,"Patsourakos and Vourlidas 2012; crude order-of-magnitude budget"
+Strong global shock,2.8e31,2.8e31,initial shock energy,published model estimate,"Long et al. 2015; event-specific shock treatment"

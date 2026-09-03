@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this software or its derived tables, cite this release and the associated Review."
+title: "Untangling EIT Waves: reproducibility software and reduced data"
+type: software
+authors:
+  - family-names: Podladchikova
+    given-names: Olena
+version: 1.0.0
+date-released: 2026-09-03
+license: BSD-3-Clause
+repository-code: "https://github.com/epodlad/untangling-eit-waves"
+keywords:
+  - solar physics
+  - EUV waves
+  - coronal shocks
+  - energy partition
+  - SDO AIA
+  - PROBA2 SWAP
+preferred-citation:
+  type: article
+  title: "Untangling EIT Waves: What a Measured Speed Actually Traces"
+  authors:
+    - family-names: Podladchikova
+      given-names: Olena
+  year: 2026
+

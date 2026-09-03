@@ -1,0 +1,48 @@
+{
+  "n_repetitions": 200,
+  "random_model": "region MAD with N_eff=Npix/16",
+  "systematic_model": "10% channel factor shared across all stages",
+  "scope": "DEM temporal-change sensitivity only; excludes geometry/depth/filling-factor uncertainty",
+  "metrics": {
+    "dimming_em_ratio_late_pre": {
+      "p16": 0.8598974992409204,
+      "median": 0.9113808899881811,
+      "p84": 0.9868648482624424
+    },
+    "front_geometric_em_ratio_late_pre": {
+      "p16": 1.0081820288270025,
+      "median": 1.0318426516563113,
+      "p84": 1.0525641291988843
+    },
+    "front_bright_subset_em_ratio_late_pre": {
+      "p16": 1.061585255034438,
+      "median": 1.0979661846572562,
+      "p84": 1.1424018426420532
+    },
+    "front_control_inner_em_ratio_late_pre": {
+      "p16": 0.997032501618739,
+      "median": 1.0314090382320802,
+      "p84": 1.054585962727906
+    },
+    "front_control_outer_em_ratio_late_pre": {
+      "p16": 0.9788671492008388,
+      "median": 1.0089742529038896,
+      "p84": 1.0419651271250467
+    },
+    "source_early_excess_em_cm-5": {
+      "p16": 1.7944178935415807e+28,
+      "median": 2.219992807405182e+28,
+      "p84": 2.5592907880169104e+28
+    },
+    "source_early_excess_dem_weighted_temperature_K": {
+      "p16": 8701340.166464958,
+      "median": 9598590.878100712,
+      "p84": 10337419.727985498
+    },
+    "chisq_all": {
+      "p16": 0.7662979582425608,
+      "median": 1.0505645100647625,
+      "p84": 1.333120137712951
+    }
+  }
+}

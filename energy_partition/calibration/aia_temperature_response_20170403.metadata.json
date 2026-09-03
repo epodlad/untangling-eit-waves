@@ -1,0 +1,15 @@
+{
+  "observation_time": "2017-04-03T14:20:00",
+  "units": "DN cm^5 s^-1 pix^-1",
+  "aiatresp_version": "0.1.1",
+  "aiapy_version": "0.12.1",
+  "channels_angstrom": [
+    94,
+    131,
+    171,
+    193,
+    211,
+    335
+  ],
+  "note": "Model/calibration product, not an observed quantity."
+}

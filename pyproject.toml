@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "untangling-eit-waves"
+version = "1.0.0"
+description = "Reproducible cadence, WCS, DEM, and energy diagnostics for the Untangling EIT Waves Review"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "BSD-3-Clause"}
+authors = [{name = "Olena Podladchikova"}]
+dependencies = [
+  "astropy>=5.3",
+  "matplotlib>=3.8",
+  "numpy>=1.26"
+]
+
+[project.optional-dependencies]
+full = [
+  "aiapy>=0.9",
+  "pillow>=10",
+  "reportlab>=4",
+  "scikit-image>=0.22",
+  "scipy>=1.11",
+  "sunpy[map]>=5.1"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+

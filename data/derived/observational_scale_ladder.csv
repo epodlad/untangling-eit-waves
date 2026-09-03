@@ -1,0 +1,10 @@
+regime,observable,value_min,value_max,unit,status,source
+Compact quiet-Sun brightenings,source thermal energy,1e20,1e24,erg,published observational inference,Podladchikova et al. 2025
+Podladchikova mini-wave,mean apparent speed,14,14,km/s,published observation,Podladchikova et al. 2010
+Podladchikova mini-wave,propagation distance,40,40,Mm,published observation,Podladchikova et al. 2010
+Innes mini-waves,typical apparent speed,45,45,km/s,published observation,Innes et al. 2009
+Innes mini-waves,lifetime,30,30,min,published observation,Innes et al. 2009
+Innes mini-waves,propagation distance,80,80,Mm,published observation,Innes et al. 2009
+Innes wave-bearing mini-eruptions,full-Sun occurrence rate,470,470,per day,derived from published fraction,one third of about 1400 per day
+Typical global EUV wave,energy proxy,1.8e29,1.8e29,erg,published model estimate,Patsourakos and Vourlidas 2012
+Strong global shock,initial shock energy,2.8e31,2.8e31,erg,published model estimate,Long et al. 2015

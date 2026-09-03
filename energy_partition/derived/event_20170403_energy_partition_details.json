@@ -1,0 +1,101 @@
+{
+  "event": "2017-04-03 AR 12644",
+  "times": {
+    "pre": "14:04 UT",
+    "early": "14:20 UT",
+    "late": "14:44 UT"
+  },
+  "measured_inputs": {
+    "aia171_ridge_speed_km_s": 405.0,
+    "swap_comparison_speed_km_s": 484.0,
+    "source_projected_area_cm2": 5.209986020115616e+18,
+    "source_foreshortening_corrected_area_cm2": 2.5214998624203088e+19
+  },
+  "dem_inferences": {
+    "source_early_excess_em_cm-5": 2.1396450247535276e+28,
+    "source_excess_dem_weighted_temperature_K": 9665507.545156233,
+    "dimming_em_ratio_late_pre": 0.9202889989997636,
+    "front_full": {
+      "em_pre_cm-5": 4.5533905063076197e+26,
+      "em_late_cm-5": 4.7085434052471936e+26,
+      "em_ratio": 1.0340741473248665,
+      "density_compression": 1.0168943638966963,
+      "delta_n_over_n": 0.016894363896696296,
+      "kinetic_low_erg": 5.923125458774162e+25,
+      "kinetic_central_erg": 1.093072985573972e+26,
+      "kinetic_high_erg": 2.0171927137246084e+26
+    },
+    "front_bright_subset": {
+      "em_pre_cm-5": 4.5948816336098484e+26,
+      "em_late_cm-5": 5.032094289084323e+26,
+      "em_ratio": 1.0951521040882592,
+      "density_compression": 1.046495152443746,
+      "delta_n_over_n": 0.046495152443746024,
+      "kinetic_low_erg": 1.9704660145382745e+26,
+      "kinetic_central_erg": 3.675819212049284e+26,
+      "kinetic_high_erg": 6.857081918683439e+26
+    },
+    "front_control_geometric_mean_em_ratio_late_pre": 1.0172842293340236
+  },
+  "model_assumptions": {
+    "filling_factor": 1.0,
+    "dimming_and_front_depth_cm": [
+      3000000000.0,
+      10000000000.0
+    ],
+    "dimming_feature_speed_cm_s": [
+      19000000.0,
+      37000000.0
+    ],
+    "front_phase_speed_cm_s": [
+      40500000.0,
+      48400000.0
+    ],
+    "density_relation": "n_e=sqrt(EM/L)",
+    "weak_front_relation": "delta_v=v_ph*(sqrt(EM1/EM0)-1)",
+    "thermal_energy": "3*k_B*T*A*sqrt(EM*f*L)"
+  },
+  "results": [
+    {
+      "component": "compact_source_thermal_excess_early",
+      "low": 1.4576248482655708e+29,
+      "central": 3.905348162951576e+29,
+      "high": 1.0463422253001047e+30,
+      "units": "erg",
+      "status": "DEM-inferred; volume/filling-factor model"
+    },
+    {
+      "component": "dimming_mass_deficit",
+      "low": 2126395893996.279,
+      "central": 4770991598042.851,
+      "high": 10704667410646.959,
+      "units": "g",
+      "status": "DEM-inferred; LOS-depth/filling-factor model"
+    },
+    {
+      "component": "ejecta_mechanical_proxy",
+      "low": 4.4403399058430296e+27,
+      "central": 1.1100152632789706e+28,
+      "high": 2.7748638861879044e+28,
+      "units": "erg",
+      "status": "model proxy; dimming mass paired with published feature speed"
+    },
+    {
+      "component": "front_segment_kinetic_full_fixed_shell",
+      "low": 5.923125458774162e+25,
+      "central": 1.093072985573972e+26,
+      "high": 2.0171927137246084e+26,
+      "units": "erg",
+      "status": "weak-compression kinetic model"
+    },
+    {
+      "component": "front_segment_kinetic_including_bright_subset_sensitivity",
+      "low": 5.923125458774162e+25,
+      "central": 2.015325196722699e+26,
+      "high": 6.857081918683439e+26,
+      "units": "erg",
+      "status": "sector-local model range; bright-subset upper sensitivity is selection-biased"
+    }
+  ],
+  "interpretation_limit": "The source thermal excess is not the total released magnetic energy, and the front mask covers one reconstructed sector segment rather than the full global front. Therefore E_front/E_release is not measured by this EUV-only pilot."
+}
