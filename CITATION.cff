@@ -1,12 +1,15 @@
 cff-version: 1.2.0
 message: "If you use this software or its derived tables, cite this release and the associated Review."
-title: "Untangling EIT Waves: reproducibility software and reduced data"
+title: "Untangling EIT Waves: reproducibility software and reduced EUV data"
 type: software
 authors:
   - family-names: Podladchikova
     given-names: Olena
+    orcid: "https://orcid.org/0000-0003-1679-0986"
 version: 1.0.0
-date-released: 2026-09-03
+date-released: 2026-09-04
+doi: 10.5281/zenodo.22288289
+url: "https://doi.org/10.5281/zenodo.22288289"
 license: BSD-3-Clause
 repository-code: "https://github.com/epodlad/untangling-eit-waves"
 keywords:
@@ -23,4 +26,3 @@ preferred-citation:
     - family-names: Podladchikova
       given-names: Olena
   year: 2026
-

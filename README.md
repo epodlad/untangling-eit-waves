@@ -47,8 +47,9 @@ The PDF in `paper/` is the author's submitted, pre-peer-review manuscript. It
 is not a publisher-formatted Version of Record.
 
 The reduced 128-file SDO/AIA subset is distributed in the accompanying Zenodo
-archive rather than committed to GitHub. Exact source URLs and SHA-256 values
-are recorded in `data/manifests/aia_synoptic_manifest.csv`.
+archive at [doi:10.5281/zenodo.22288289](https://doi.org/10.5281/zenodo.22288289)
+rather than committed to GitHub. Exact source URLs and SHA-256 values are
+recorded in `data/manifests/aia_synoptic_manifest.csv`.
 
 ## Quick start
 
@@ -103,4 +104,6 @@ are not relicensed here. See `LICENSES.md` for the scope of each license.
 
 Code is released under the BSD 3-Clause License. Author-created derived tables
 and original schematics are released under CC BY 4.0. Cite the associated
-Review and the archived release described in `CITATION.cff`.
+Review and the archived release at
+[doi:10.5281/zenodo.22288289](https://doi.org/10.5281/zenodo.22288289), as
+described in `CITATION.cff`.
